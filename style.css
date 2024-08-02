@@ -1,35 +1,38 @@
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: aquamarine;
+    margin-top: 15px;
 }
 
 .tabs {
     overflow: hidden;
-    background-color: #f1f1f1;
 }
 
 .tablink {
-    background-color: #ddd;
     border: none;
     outline: none;
     cursor: pointer;
+    margin: 25px;
     padding: 14px 16px;
     font-size: 17px;
+    font-family: 'Anonymous Pro';font-size: 22px;
     transition: 0.3s;
+    color: black;
+    display: inline;
+    text-decoration: none; 
 }
 
 .tablink:hover {
-    background-color: #ccc;
+    background-color: #a9b1f8;
 }
 
-.tabcontent {
-    display: none;
+.content {
     padding: 20px;
-    border: 1px solid #ccc;
-    border-top: none;
 }
 
-.tabcontent h1 {
-    margin-top: 0;
+.back {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: blue;
 }
