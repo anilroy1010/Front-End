@@ -11,9 +11,10 @@ html, body{
 }
 .tabs-container{
     position: absolute;
-    top: 25px;
+    top: 30px;
     right: 10px;
     padding: 0;
+    background-color: #41cf95;
 }
 .search-box{
     position: center;
@@ -28,7 +29,6 @@ html, body{
     border-radius: 10px;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: rgb(188, 194, 248);
 }
 .tablink:hover{
     background-color: rgb(234, 252, 136);
