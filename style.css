@@ -1,38 +1,69 @@
 /* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    margin-top: 15px;
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.tabs {
-    overflow: hidden;
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
-
-.tablink {
-    border: none;
-    outline: none;
-    cursor: pointer;
-    margin: 25px;
-    padding: 14px 16px;
-    font-size: 17px;
-    font-family: 'Anonymous Pro';font-size: 22px;
-    transition: 0.3s;
-    color: black;
-    display: inline;
-    text-decoration: none; 
+.tabs-container{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    padding: 0;
 }
+.search-box{
+    position: center;
+    top: 0;
+    right: 30%;
+    width: 25px;
 
-.tablink:hover {
-    background-color: #a9b1f8;
 }
-
-.content {
-    padding: 20px;
-}
-
-.back {
-    display: inline-block;
-    margin-top: 20px;
+.tablink{
+    width: 25px;
+    padding: 10px;
+    border-radius: 10px;
     text-decoration: none;
-    color: blue;
+    text-transform: uppercase;
+    background-color: rgb(188, 194, 248);
+}
+.tablink:hover{
+    background-color: rgb(234, 252, 136);
+}
+.container{
+    display: inline-flexbox;
+    justify-content: space-between;
+}
+.box{
+    width: 50%; /* Adjust width as needed */
+    padding: 10px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+
+}
+.paragraph{
+    text-align: left;
+    margin-top: 300px;
+    margin-left: 100px;
+    padding: 10px;
+
+}
+.image-container{
+    width: 20%;
+    height: 15%;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 100px;
+    border-radius: 25px;
+}
+#boxes{
+    display: flex;
+
+}
+.box1{
+    height: 50px;
+    width: 70px;
+    background-color: blueviolet;
 }
