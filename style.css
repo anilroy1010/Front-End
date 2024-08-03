@@ -14,7 +14,7 @@ html, body{
     top: 30px;
     right: 10px;
     padding: 0;
-    background-color: #41cf95;
+    /*background-color: #1eda85;*/
 }
 .search-box{
     position: center;
@@ -24,20 +24,27 @@ html, body{
 
 }
 .tablink{
-    width: 25px;
-    padding: 10px;
-    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin-right: 25px;
+    padding: 5px;
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
-    text-emphasis:5px;
+    color: rgb(17, 16, 16);
+    text-emphasis:10px;
 }
 .tablink:hover{
-    background-color: rgb(234, 252, 136);
+    background-color: #41cf95;
+    transform: scale(0.70);
+    color: #000; /* Slightly darker text color */
+    border-radius: 5px;
 }
+.image-container:hover{
+    transform: scale(0.97);
+}
+
 .container{
     display: inline-flexbox;
-    justify-content: space-between;
 }
 .box{
     width: 50%; /* Adjust width as needed */
@@ -47,25 +54,89 @@ html, body{
 }
 .paragraph{
     text-align: left;
-    margin-top: 300px;
-    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 400px;
     padding: 10px;
 
 }
-.image-container{
-    width: 20%;
-    height: 15%;
-    display: flex;
-    margin-top: 15px;
-    margin-left: 100px;
-    border-radius: 25px;
+ p{
+    color: rgb(109, 109, 143);
+    font-size: 20px;
 }
-#boxes{
+h2{
+    color:#0097b2 ;
+    font-size: 30px;
+}
+.image-container{
+    width: 15%;
+    height: 10%;
     display: flex;
+    margin-top: 7px;
+    margin-left: 50px;
+    padding: auto;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Center items vertically */
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 50px;
 
 }
+.nav-item {
+    display: flex;
+    width: 40vw; 
+    height: 40vw; 
+    max-width: 150px; 
+    max-height: 150px;
+    border-radius: 50%; 
+    margin-left: 380px;
+    margin-top: 140px;
+
+    
+}
+.nav-item img{
+    width: 85%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+#boxes{
+    display: flex;
+    margin: 0;
+    padding: 1pax;
+    gap: 5px;
+}
 .box1{
-    height: 50px;
-    width: 70px;
-    background-color: blueviolet;
+    height: 200px;
+    width: 25%;
+    background-color: rgb(226, 203, 248);
+    margin: 5px;
+}
+.box2{
+    height: 200px;
+    width: 25%;
+    background-color: rgb(221, 195, 245);
+    margin: 5px;
+}
+.box3{
+    height: 200px;
+    width: 25%;
+    background-color: rgb(206, 165, 247);
+    margin: 5px;
+}
+.box4{
+    height: 200px;
+    width: 25%;
+    background-color: rgb(223, 195, 250);
+    margin: 5px;
+}
+.work-section{
+    height: 15%;
 }
