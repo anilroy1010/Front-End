@@ -29,6 +29,8 @@ html, body{
     border-radius: 10px;
     text-decoration: none;
     text-transform: uppercase;
+    color: white;
+    text-emphasis:5px;
 }
 .tablink:hover{
     background-color: rgb(234, 252, 136);
